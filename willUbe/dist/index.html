@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To my Daniella Dayne</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="page" id="page">
+      <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+      <main class="scrapbook">
+        <!-- COVER PAGE -->
+        <section class="spread" id="cover" aria-label="Cover page">
+          <div class="piece piece--cover paper paper--torn" data-tilt="-2">
+            <div class="tape tape--top"></div>
+            <div class="tape tape--bottom"></div>
+
+            <p class="kicker">. A handmade(Digitally) little book of us</p>
+            <h1 class="hand" id="coverTitle">For You ♥</h1>
+            <p class="subhand" id="coverSubtitle">I love about you.</p>
+
+            <div class="doodles" aria-hidden="true">
+              <span class="doodle doodle--swirl"></span>
+              <span class="doodle doodle--arrow"></span>
+              <span class="doodle doodle--heart"></span>
+            </div>
+          </div>
+        </section>
+
+        <!-- LOVE NOTES -->
+        <section class="spread" id="notes" aria-label="Love notes">
+          <div
+            class="piece piece--sectionTitle paper paper--rounded"
+            data-tilt="-1"
+          >
+            <div class="tape tape--top"></div>
+            <h2 class="hand">Love Notes</h2>
+            <p class="caption">Click mo hehehe.</p>
+          </div>
+
+          <div class="notes" id="notesGrid">
+            <!-- Filled by script.js -->
+          </div>
+        </section>
+
+        <!-- MEMORIES / PHOTOS -->
+        <section class="spread" id="memories" aria-label="Memories and photos">
+          <div
+            class="piece piece--sectionTitle paper paper--torn"
+            data-tilt="2"
+          >
+            <div class="tape tape--top"></div>
+            <h2 class="hand">Memories</h2>
+            <p class="caption">Little snapshots I keep replaying.</p>
+          </div>
+
+          <div class="polaroids" id="polaroidGrid">
+            <!-- Filled by script.js -->
+          </div>
+        </section>
+
+        <!-- REASONS I LOVE YOU -->
+        <section class="spread" id="reasons" aria-label="Reasons I love you">
+          <div
+            class="piece piece--sectionTitle paper paper--rounded"
+            data-tilt="-2"
+          >
+            <div class="tape tape--top"></div>
+            <h2 class="hand">Reasons I Love You</h2>
+            <p class="caption">
+              theres more pa, pero I love this portion lang.
+            </p>
+          </div>
+
+          <div class="piece piece--notebook notebook" data-tilt="1">
+            <div class="notebook__margin" aria-hidden="true"></div>
+            <ol class="reasons" id="reasonsList">
+              <!-- Filled by script.js -->
+            </ol>
+          </div>
+
+          <div class="piece piece--kiss paper paper--rounded" data-tilt="4">
+            <div class="kiss" aria-hidden="false">
+              <img
+                src="./7.jpeg"
+                alt="Sealed with a kiss"
+                class="kiss__photo"
+              />
+            </div>
+            <p class="caption">(lipstick proof)</p>
+          </div>
+        </section>
+
+        <!-- FINAL PAGE -->
+        <section
+          class="spread spread--final"
+          id="final"
+          aria-label="Final page"
+        >
+          <a
+            class="piece piece--final paper paper--torn final-link"
+            href="../../scrapbook/index.html"
+            data-tilt="-1"
+          >
+            <span class="sr-only"></span>
+            <div class="tape tape--top" aria-hidden="true"></div>
+            <div class="bigHeart" aria-hidden="true"></div>
+            <h2 class="hand">Click me!</h2>
+            <p class="caption" id="finalCaption">hehehehe.</p>
+          </a>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
